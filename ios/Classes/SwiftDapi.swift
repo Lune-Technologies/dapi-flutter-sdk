@@ -2,8 +2,8 @@ import Flutter
 import UIKit
 
 public class SwiftDapi: NSObject, FlutterPlugin,FlutterStreamHandler {
-   static let channelName = "plugins.steelkiwi.com/dapi"
-   static let eventAuthName = "plugins.steelkiwi.com/dapi/connect"
+   static let channelName = "plugins.lune.ae/dapi"
+   static let eventAuthName = "plugins.lune.ae/dapi/connect"
 
     
     var connectDelegate: DapiConnectDelegate?

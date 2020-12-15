@@ -9,17 +9,17 @@
 
 import Foundation
 enum Action: String {
-    case initEnvironment = "initEnvironmentISerdun"
-    case connect = "connectISerdun"
-    case activeConnection = "activeConnectionISerdun"
-    case connectionAccounts = "connectionAccountsISerdun"
-    case bankMetaData = "userAccountsMetaDataISerdun"
-    case beneficiaries = "beneficiariesISerdun"
-    case createBeneficiary = "createBeneficiaryISerdun"
-    case deLink = "delinkISerdun"
-    case createTransferIdToId = "createTransferIdToIdISerdun"
-    case createTransferIdToIBan = "createTransferIdToIBanISerdun"
-    case createTransferIDToNumber = "createTransferIdToNumberISerdun"
+    case initEnvironment = "initEnvironmentLune"
+    case connect = "connectLune"
+    case activeConnection = "activeConnectionLune"
+    case connectionAccounts = "connectionAccountsLune"
+    case bankMetaData = "userAccountsMetaDataLune"
+    case beneficiaries = "beneficiariesLune"
+    case createBeneficiary = "createBeneficiaryLune"
+    case deLink = "delinkLune"
+    case createTransferIdToId = "createTransferIdToIdLune"
+    case createTransferIdToIBan = "createTransferIdToIBanLune"
+    case createTransferIDToNumber = "createTransferIdToNumberLune"
     
     
 

@@ -1,8 +1,8 @@
-package com.steelkiwi.dapi_plugin
+package ae.lune.dapi_plugin
 
 import android.app.Activity
 import androidx.annotation.NonNull
-import com.steelkiwi.dapi_plugin.configs.ConstActions
+import ae.lune.dapi_plugin.configs.ConstActions
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
@@ -29,7 +29,7 @@ public class Dapi : FlutterPlugin, MethodCallHandler, ActivityAware, EventChanne
     }
 
     companion object {
-        private val CHANNEL = "plugins.steelkiwi.com/dapi"
+        private val CHANNEL = "plugins.lune.ae/dapi"
 
         @JvmStatic
         fun registerWith(registrar: Registrar) {

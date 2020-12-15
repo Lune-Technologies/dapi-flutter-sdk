@@ -1,15 +1,15 @@
 class ConstAction {
-  static const initEnvironment = "initEnvironmentISerdun";
+  static const initEnvironment = "initEnvironmentLune";
 
-  static const connect = "connectISerdun";
-  static const activeConnection = "activeConnectionISerdun";
-  static const connectionAccounts = "connectionAccountsISerdun";
-  static const bankMetaData = "userAccountsMetaDataISerdun";
-  static const beneficiaries = "beneficiariesISerdun";
-  static const createBeneficiary = "createBeneficiaryISerdun";
-  static const deLink = "delinkISerdun";
+  static const connect = "connectLune";
+  static const activeConnection = "activeConnectionLune";
+  static const connectionAccounts = "connectionAccountsLune";
+  static const bankMetaData = "userAccountsMetaDataLune";
+  static const beneficiaries = "beneficiariesLune";
+  static const createBeneficiary = "createBeneficiaryLune";
+  static const deLink = "delinkLune";
 
-  static final createTransferIdToId = "createTransferIdToIdISerdun";
-  static final createTransferIdToIBan = "createTransferIdToIBanISerdun";
-  static final createTransferIDToNumber = "createTransferIdToNumberISerdun";
+  static final createTransferIdToId = "createTransferIdToIdLune";
+  static final createTransferIdToIBan = "createTransferIdToIBanLune";
+  static final createTransferIDToNumber = "createTransferIdToNumberLune";
 }

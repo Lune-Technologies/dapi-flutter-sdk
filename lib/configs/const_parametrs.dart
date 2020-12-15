@@ -6,15 +6,11 @@ class ConstParameters {
   static const environmentPort = "PARAM_PORT";
   static const environmentAppKey = "PARAM_APP_KEY";
 
-  static const iBan = "iBan_iserdun";
-  static const accountNumber = "accountNumber_iserdun";
-  static const phoneNumber = "phone_number_iserdun";
-  static const swiftCode = "swift_coder_iserdun";
-  static const country = "country_iserdun";
-
-
-
-
+  static const iBan = "iBan_lune";
+  static const accountNumber = "accountNumber_lune";
+  static const phoneNumber = "phone_number_lune";
+  static const swiftCode = "swift_coder_lune";
+  static const country = "country_lune";
 
   static const transactionAmount = "param_amount";
   static const transactionBeneficiaryId = "beneficiary_id";

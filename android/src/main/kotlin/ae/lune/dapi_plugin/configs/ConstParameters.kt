@@ -1,4 +1,4 @@
-package com.steelkiwi.dapi_plugin.configs
+package ae.lune.dapi_plugin.configs
 
 class ConstParameters {
     companion object {
@@ -9,11 +9,11 @@ class ConstParameters {
         final const val ENVIRONMENT_PORT = "PARAM_PORT";
         final const val ENVIRONMENT_APP_KEY = "PARAM_APP_KEY";
 
-        final const val I_BAN = "iBan_iserdun";
-        final const val ACCOUNT_NUMBER = "accountNumber_iserdun";
-        final const val PHONE_NUMBER = "phone_number_iserdun";
-        final const val SWIFT_CODE = "swift_coder_iserdun";
-        final const val COUNTRY = "country_iserdun";
+        final const val I_BAN = "iBan_lune";
+        final const val ACCOUNT_NUMBER = "accountNumber_lune";
+        final const val PHONE_NUMBER = "phone_number_lune";
+        final const val SWIFT_CODE = "swift_coder_lune";
+        final const val COUNTRY = "country_lune";
 
 
         final const val TRANSACTION_AMOUNT = "param_amount";

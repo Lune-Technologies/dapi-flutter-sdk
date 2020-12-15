@@ -1,4 +1,4 @@
-group 'com.steelkiwi.dapi_plugin'
+group 'ae.lune.dapi_plugin'
 version '1.0-SNAPSHOT'
 
 buildscript {

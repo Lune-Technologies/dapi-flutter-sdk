@@ -1,4 +1,4 @@
-package com.steelkiwi.dapi_plugin.configs
+package ae.lune.dapi_plugin.configs
 
 class ConstMessage {
     companion object {

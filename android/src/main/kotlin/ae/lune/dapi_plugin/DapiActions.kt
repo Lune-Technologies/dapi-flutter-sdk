@@ -1,4 +1,4 @@
-package com.steelkiwi.dapi_plugin
+package ae.lune.dapi_plugin
 
 enum class DapiActions {
     LOGIN,

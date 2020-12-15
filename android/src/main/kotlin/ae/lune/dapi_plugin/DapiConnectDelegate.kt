@@ -1,4 +1,4 @@
-package com.steelkiwi.dapi_plugin
+package ae.lune.dapi_plugin
 
 import android.app.Activity
 import android.os.Handler
@@ -12,11 +12,11 @@ import com.dapi.connect.data.models.DapiConfigurations
 import com.dapi.connect.data.models.DapiError
 import com.dapi.connect.data.models.LinesAddress
 import com.google.gson.Gson
-import com.steelkiwi.dapi_plugin.configs.ConstHeader
-import com.steelkiwi.dapi_plugin.configs.ConstMessage
-import com.steelkiwi.dapi_plugin.configs.ConstParameters
-import com.steelkiwi.dapi_plugin.model.AuthState
-import com.steelkiwi.dapi_plugin.model.AuthStatus
+import ae.lune.dapi_plugin.configs.ConstHeader
+import ae.lune.dapi_plugin.configs.ConstMessage
+import ae.lune.dapi_plugin.configs.ConstParameters
+import ae.lune.dapi_plugin.model.AuthState
+import ae.lune.dapi_plugin.model.AuthStatus
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.EventChannel
 import io.flutter.plugin.common.MethodCall
@@ -354,11 +354,11 @@ class DapiConnectDelegate(private var activity: Activity, var client: DapiClient
     }
 
     private fun delink(call: MethodCall, result: MethodChannel.Result, dapiClient: DapiClient) {
+
         val dapiAccessId = call.argument<String>(ConstParameters.CURRENT_CONNECT_ID);
         dapiAccessId?.let {
             dapiClient.userID = (it)
         };
-
 
         dapiClient.auth.delink({
             successFinish(it, result);

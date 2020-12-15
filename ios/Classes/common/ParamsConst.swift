@@ -47,11 +47,11 @@ struct ConstParameters{
       static let environmentPort = "PARAM_PORT";
       static let environmentAppKey = "PARAM_APP_KEY";
 
-      static let iBan = "iBan_iserdun";
-      static let accountNumber = "accountNumber_iserdun";
-      static let phoneNumber = "phone_number_iserdun";
-      static let swiftCode = "swift_coder_iserdun";
-      static let country = "country_iserdun";
+      static let iBan = "iBan_lune";
+      static let accountNumber = "accountNumber_lune";
+      static let phoneNumber = "phone_number_lune";
+      static let swiftCode = "swift_coder_lune";
+      static let country = "country_lune";
 
 
       static let transactionAmount = "param_amount";

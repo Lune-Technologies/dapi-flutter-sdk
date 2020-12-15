@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.steelkiwi.dapi_plugin">
+    package="ae.lune.dapi_plugin">
 
     <!--    <application android:theme="@style/AppTheme">-->
     <!--&lt;!&ndash;        <activity&ndash;&gt;-->
